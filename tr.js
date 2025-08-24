@@ -6,7 +6,7 @@ const port = 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  res.setHeader("Content-Typeuio", "text/plain");
+  res.setHeader("Content-PO", "text/plain");
   res.end("Hello from Node.js + Jenkins!\n");
 });
 
@@ -14,3 +14,4 @@ server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 
 });
+
